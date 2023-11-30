@@ -1,0 +1,62 @@
+
+.banner-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 1rem;
+    background-color: rgba(220, 220, 220, 0.771);
+}
+.bannermailbox-container
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+    gap: 1rem;
+    margin-left: 1rem;
+}
+.banner-socialmediaicons
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 25rem;
+    
+}
+.banner-socialmediaicons span{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 0.8rem;
+}
+.banner-flagimg
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10rem;
+}
+.banner-flagimg select
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    border: 0;
+    outline: 0;
+    background-color: rgba(220, 220, 220, 0.771);
+}
+.banner-profile
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+.banner-profile span{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}

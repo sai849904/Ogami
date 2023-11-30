@@ -1,0 +1,198 @@
+.productDetails-container
+{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.categorycolor{
+    color: green;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.namecolor{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.productimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25rem;
+    height: 25rem;
+    border: 1px solid rgba(128, 128, 128, 0.387);
+}
+.bigimgpd{
+    width: 12rem;
+    height: 12rem;
+}
+.productcontent{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-right: 1px solid rgba(128, 128, 128, 0.2);
+    padding-right: 0.7rem;
+}
+.paracontent
+{
+    display: flex;
+    width: 20rem;
+}
+.borderline{
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    width: 20rem;
+    display: flex;
+}
+.skupara
+{
+   display: flex;
+   gap: 1rem;
+}
+.shareicons{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+/* /////////  last line  */
+.lastline-container{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.freedeliverybtn{
+    width: 10rem;
+    height: 2rem;
+    background-color: rgba(240, 255, 255, 0.667);
+}
+.price{
+    font-size: 2rem;
+
+}
+.pd-gray-price{
+    text-decoration: line-through;
+}
+.addtocartbtn{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 10rem;
+    border: none;
+    border-color: green;
+    outline: none;  
+    background-color: aliceblue;
+}
+.addtocartbtn:hover
+{
+    background-color: rgb(78, 244, 78);
+}
+.qualitycheck{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+/* //////////three images */
+.pd-imageItem{
+    border: 1px solid  rgba(128, 128, 128, 0.2) ;
+    padding-left:1rem ;
+}
+.pd-image{
+    width: 8rem;
+    height: 7.1rem;
+}
+.pd-images{
+    display: flex;
+    padding: .5rem;
+    gap: 1rem;
+    flex-direction: column;
+}
+/* ///////////////////descripitionbar  */
+.descripitionbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+    padding: 1rem;
+}
+.buttonsdesp{
+    width: 25rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0.5rem 0.5rem 2rem 0.5rem;
+    background-color: aliceblue;
+}
+.buttonsdesp:active{
+    background-color: rgb(78, 244, 78);
+    color: green;
+}
+
+.downbar{
+    width: 70rem;
+    margin-left: 2rem;
+    border: 1px solid rgba(128, 128, 128, 0.2) ;
+    border-top: none;
+    padding: 1rem;
+}
+/* /////////////table spec */
+.tabledata{
+    border: 1px solid rgba(128, 128, 128, 0.2) ;
+    border-collapse: collapse ;
+}
+tr,td{
+    border: 1px solid rgba(128, 128, 128, 0.2) ;
+    text-align: start;
+    width: 80rem;
+    font-size:1rem ;
+    padding: 0.5rem 0rem 0.5rem 0.5rem;
+}
+.tdd{
+    font-weight: 500;
+}
+/* //////////////// review */
+.reviewmaindiv{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+   
+}
+.personimg{
+    border: 1px solid;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+}
+.reviewsubdiv{
+    border-right: 1px solid;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+.reviewdetails{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.reviewdetails span:nth-child(1){
+    color: rgba(128, 128, 128, 0.501);
+}
+.reviewcontainer{
+    display: flex;
+    flex-direction: row;
+}
+.fivestar{
+      color: gold;
+}
+.reviewcomment{
+    color: rgba(128, 128, 128, 0.771);
+}

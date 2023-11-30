@@ -1,0 +1,28 @@
+.features-head
+{
+   display: grid;
+   grid-template-columns: repeat(6,1fr);
+   flex-direction: row;
+}
+.featureicons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ricon
+{
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 0.5rem;
+    background-color: rgb(241, 241,241);
+    border: none;
+    transition: all 0.5s;
+    opacity: 0;
+    padding: 0.5rem;
+}
+.ricon:hover
+{
+    background-color: #88c74A;
+    display: flex;
+   
+}

@@ -1,0 +1,67 @@
+.navbar-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.navbar-imglogo
+{
+    margin-left: 1rem;
+}
+.navbar-categorieslist
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+
+}
+.navbar-select
+{
+   outline: 0;
+   border: none;
+}
+.navbar-input
+{
+    outline: 0;
+    border: 0;
+    width: 15rem;
+    height: 2.5rem;
+}
+.navbar-search
+{
+    width: 2.5rem;
+    height: 3rem;
+    background-color:  rgb(94, 178, 71);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-homeshopblog
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.navbar-homeshopblog span{
+    font-size:1.1rem;
+}
+.navbar-pageaboutus
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.navbar-pageaboutus span{
+    color: rgb(99, 189, 74);
+}
+.navbar-heartbagicons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
