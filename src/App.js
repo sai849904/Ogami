@@ -14,7 +14,6 @@ import Signin  from './components/signin';
 import Signup from './components/signup';
 import ProductDetails from './components/productDetails.js';
 import  Cartpage  from './components/cartpage.js';
-
 const url="https://ogami-api.vercel.app/api/product";
 function App() {
   const [products,setProducts]=useState([])
@@ -28,7 +27,6 @@ function App() {
   useEffect(()=>{
     fetchProducts();
   },[])
-  
 const router =createBrowserRouter([
   {
   path:"/",
